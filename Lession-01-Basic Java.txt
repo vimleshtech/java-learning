@@ -1,0 +1,236 @@
+Today's Topics
+===================
+->Overview of java
+->Java Edition and Environmenet Setup
+->JDK Components
+->First Java Project
+->Variable and Data Types
+->Operator
+->Condition
+->Input and Output
+
+
+Overview of java
+===========================
+-> Java is plateform independent(works on all operating system) programing language
+-> Java is Object oriented languuage 
+-> 3.1 B applications build in java 
+-> We can develop following types of application with java
+	-Console Application(command line)
+	-GUI (Graphical user interface) / Standalone 
+	-Web Application
+	-Mobile Application
+	-Web Services 
+	
+
+Java Edition and Environmenet Setup
+======================================
+There are following of java:
+-J2SE		: Java 2 standard edition (core java)
+			-console application 
+			-GUI 
+-J2EE		: java 2 enterprise edition (Advance java)
+			-Web Application 
+-J2ME/Android	: Java 2 Mobile edition 
+			-Mobile Apps	
+-Other 
+	-Hibernate (ORM-object relationship mapping) : Database connection	
+	-Struts
+	-Spring
+	-WebService
+	-JSF
+	etc.
+
+Environmenet Setup:
+----------------------
+JDK : Java development kit 
+JDK Version:
+	11	/ 1.11		**
+	10	/ 1.10  	*
+	9	/ 1.9
+	8	/ 1.8		**
+	...
+	..
+URL: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+Editor: is also known as IDE(integrated development environment)
+	-Eclipse
+		-Jet
+		-Oxygen	
+		-Neon
+		-Mars
+		-Juno
+		etc.
+	-Netbeans
+	etc.
+	
+URL: https://www.eclipse.org/downloads/
+
+
+
+Note:
+	1. 
+	We can validate java/jdk installation 
+	
+	Path: C:\Program Files\Java
+	
+	or
+	2. Open the cmd
+	java -version 
+
+
+JDK Components
+===========================
+There are following inbuilt components of JDK:
+	-Javac  : Java Compiler	(convert the source code to byte code)
+					.java 	->		.class
+	-JVM	: Java virtual machine 
+		-Memory Allocation
+		-Deallocation
+		-GC	
+	-JIT	: Just in time (interpreter):convert byte code to machine code
+	-JRE	: Java runtime environment
+		-Provides library (class, function etc.)
+	
+First Java Project
+============================
+JavaProject
+	-src: source code
+		-package  : is collection of classes or it's module
+			-code1.java	: every fiel is class 
+			-code2.java
+			....
+			...
+		-package 
+	-jre: java runtime environment(library)
+	
+
+Keywords/Reserved Words
+==========================
+package		: reference of current module or folder 
+public		: is access specifier (global access)
+class		: is wrapper of data member and function/methods 
+void		: no return type 
+static		: single memory allocation 
+		: can be call/execute without object 
+main		: is reserved function/startup function 
+String		: is data type for alpha numeric 
+int		: is data type for numebr without decimal 
+if		: is conditioal satement 
+else		: is false part of condition 	
+while		: is loop statement
+e.t.c
+	
+
+Syntax
+========================
+//	- single line comment
+/*
+	- multiple line comment
+*/
+;	- termination of statement 
+
+[]	- array
+
+{}	- array, and body of class, function , loop, condition , exception 		handling	
+
+	Example:
+	int a[] = {11,222,333,444};
+	
+()	- function , condition , loop etc.
+Note 	: java is case sensetive 
+
+
+
+Variable and Data Types
+=============================
+Variable : is temp. memory where data can be stored 
+Example:
+	int a; 	//here a is variable and int is data type 
+
+There are following data types:
+-Primitive	: Single value / value type
+----
+Number without decimal:
+
+-byte			: 1 byte
+-short			: 2 byte
+-int			: 4 byte
+-long			: 8 byte
+
+
+Numebr with decimal:
+
+-float			: 4 byte
+-double			: 8 byte
+
+
+Bit
+-boolean		: true / false 
+
+-char			: 2 byte 'a'
+
+-Non-Primitive	: Multiple value / class type 
+========================
+String
+ArrayList
+List
+etc.
+
+
+Operator
+============================
+Arithmetic:
+	+
+	-
+	*
+	/
+	%
+
+	Example:
+		2+3*4   =  14
+		(2+3)*4 =  20
+		85/10   = 8/5
+		85%10   = 5
+Conditional Operator:
+	>
+	>=
+	<
+	<=
+	==
+	!=	
+Logical Operator: (to validate two or more than two condition together)
+	&&		- and 
+	||		- or
+
+Assignment Operator:
+	=			a =1
+	+=			a +=10   or a =a+10
+	-=
+	*=
+	/=
+
+Increment/Decrement:
+	++
+	--
+	Prefix:
+		++i
+		--i
+	Postfix:
+		i++
+		i--
+
+
+Condition	: is decision making statement
+================================================
+There are following types:
+	-if condition 
+	-switch case 
+
+
+
+		
+
+	
+
+
