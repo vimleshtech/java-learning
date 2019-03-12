@@ -1,0 +1,40 @@
+Learning Notes : https://github.com/vimleshtech/java-learning
+
+Today's Topics
+===================
+-> Input and output
+-> Loop and its type
+	-while
+	-for
+	-do while
+	-advance loop : also known as foreach
+-> Array 
+
+
+Input and output
+==================
+There is following inbuilt package for input and output:
+	import java.util.Scanner 
+	or
+	import java.util.BufferedReader
+Output:
+	System.out.println()		//pint and change line (new line)
+	System.out.print("message")   //print and don't change line 
+
+Loop and its type
+===========================
+Loop : is iterator or repeation of statement 
+Example:
+	1 2 3 ..100
+	
+Fundamental of loop:
+	-init 			: 1	
+	-condition		: 100
+	-increment/decrement	: +1 
+
+There are following types of loop:
+	-while
+	-for
+	-do while
+	-advance loop 
+
