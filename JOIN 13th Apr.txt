@@ -1,0 +1,46 @@
+Join: to merge two to more than two tables 
+==================
+-> at least one column should be same in all sources
+-> There are following types of join
+	-inner join : is also known as default or equi join 
+		    ; return common or matching rows 
+
+			select t1.id, t1.name, t2.salary
+			from tabl1 as t1  inner join table2 as t2
+			on t1.id = t2.id;
+
+
+	-outer join : is also known as full outer join
+		    : return all rows from both sources
+
+			
+			select t1.id, t1.name, t2.salary
+			from tabl1 as t1  full outer join  table2 as t2
+			on t1.id = t2.id;
+
+		-left join / left outer join
+		    : return all rows from left table and matching from right tbale
+
+			
+			select t1.id, t1.name, t2.salary
+			from tabl1 as t1  left join table2 as t2
+			on t1.id = t2.id;
+
+
+		-right join / right outer join 
+		    : return all rows from right table and matching from left table 
+
+			
+			select t1.id, t1.name, t2.salary
+			from tabl1 as t1  right table2 as t2
+			on t1.id = t2.id;
+
+
+	-Other types of join
+		-cross join / catisan product
+		-self join 
+		-referential join 
+
+	
+
+
